@@ -43,8 +43,6 @@ function sendRandomMessage(channel) {
 }
 
 
-// Remplacez 'TOKEN' par le token de votre bot Discord
-const TOKEN = 'MTE4NTMzMTc0NDUzOTQyMjc2MA.GqQvW-.d4a3B5ZtVul4tDN67FYM2UEaBsva2Goiy0Ej58';
 // Remplacez les messages par ceux de votre choix
 const MESSAGES = [
 ["Ce soir, je vous propose de sortir en** Catacombes de Kathandrax**. Rendez-vous au Grand Temple de Balthazar, à 21h00"],
@@ -202,4 +200,4 @@ function sendRandomMessage(channel) {
 
 
 // Connectez-vous au bot avec le token
-client.login(TOKEN);
+client.login(process.env.TOKEN);
