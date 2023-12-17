@@ -1,3 +1,4 @@
+require('dotenv').config();
 const { Client, GatewayIntentBits } = require("discord.js");
 const cron = require('node-cron');
 
@@ -43,7 +44,7 @@ function sendRandomMessage(channel) {
 
 
 // Remplacez 'TOKEN' par le token de votre bot Discord
-const TOKEN = 'MTE4NTMzMTc0NDUzOTQyMjc2MA.Glrg4F.PWIo1eoY8AewQkRpfIqGvGTWrw2CxGn-D2CgLc';
+const TOKEN = 'MTE4NTMzMTc0NDUzOTQyMjc2MA.GqQvW-.d4a3B5ZtVul4tDN67FYM2UEaBsva2Goiy0Ej58';
 // Remplacez les messages par ceux de votre choix
 const MESSAGES = [
 ["Ce soir, je vous propose de sortir en** Catacombes de Kathandrax**. Rendez-vous au Grand Temple de Balthazar, à 21h00"],
